@@ -1,7 +1,7 @@
 {
   "name": "course-review",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository has the basic bare bones code to run a React Frontend and Node/Express Backend and running them together. The project uses MongoDB as the database storage.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,10 +9,21 @@
     "installation": "npm install && cd api && npm install && cd .. && cd client && npm install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Naomi Geffken",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naomi-Geffken/Course-Review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Naomi-Geffken/Course-Review/issues"
+  },
+  "homepage": "https://github.com/Naomi-Geffken/Course-Review#readme"
 }
